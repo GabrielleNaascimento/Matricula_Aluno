@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS cadastro_java;
+USE cadastro_java;
+
+CREATE TABLE IF NOT EXISTS cliente (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(100) NOT NULL,
+    email VARCHAR(150) NOT NULL
+);
